@@ -1,0 +1,79 @@
+@media (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .wedding-invitation {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .wedding-invitation-title {
+        font-size: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #formNewInvitation {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .wedding-banner {
+        background-image: url("../img/img-gallery2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .wedding-banner > .content{
+        height: 100vh;
+    }
+
+    .wedding-banner-welcoming {
+        width: 100%;
+        margin: 40vh auto 0;
+    }
+
+    .wedding-svg-box {
+        bottom: 40px;
+    }
+
+    .wedding-person-photo {
+        width: 100%;
+    }
+
+    .wedding-person-photo img {
+        height: auto;
+        width: 80%;
+        margin-bottom: 25px;
+        border-radius: 20px;
+    }
+
+    .wedding-date-title, .wedding-date-akad-resepsi {
+        font-size: 35px;
+    }
+
+    .wedding-gift-button {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .wedding-gallery-box {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .img-gallery {
+        border-radius: 5px;
+    }
+
+    /**
+     * Footer
+     */
+    .wedding-footer-title {
+        margin-bottom: 10px;
+    }
+}

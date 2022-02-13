@@ -1,0 +1,1012 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&family=Great+Vibes&display=swap');
+
+/*Customize Font*/
+@font-face {
+    font-family: "Vijaya";
+    src: url("../font/Vijaya/Vijaya.eot"); /* IE9*/
+    src: url("../font/Vijaya/Vijaya.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("../font/Vijaya/Vijaya.woff2") format("woff2"), /* chrome firefox */ url("../font/Vijaya/Vijaya.woff") format("woff"), /* chrome firefox */ url("../font/Vijaya/Vijaya.ttf") format("truetype"); /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    /*url("http://db.onlinewebfonts.com/t/6cd6865a4dca5af03b76e21c34d80e70.svg#Vijaya") format("svg"); !* iOS 4.1- *!*/
+}
+
+body {
+    overflow: hidden;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.bg-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #000000 0%, #FFFFFF00 27%);
+    opacity: .44;
+    transition: background .3s, border-radius .3s, opacity .3s;
+    z-index: 1;
+}
+
+.btn-sound {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    border: 7px solid #ffc265;
+    padding: 5px 10px;
+    background-color: #ffe9c8;
+    color: #ff4755;
+    z-index: 2000;
+}
+
+.btn-pause {
+    display: none;
+}
+
+.btn-play {
+    display: none;
+}
+
+.wedding-invitation {
+    background-image: url("../img/mempelai/10.jpg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    background-position: top 0 center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2002;
+    top: 0;
+    color: white;
+    left: 0;
+}
+
+.wedding-invitation-box-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: relative;
+    z-index: 2001;
+    top: 0;
+    opacity: 0.5;
+    left: 0;
+}
+
+.wedding-invitation-content {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2002;
+    top: 0;
+    color: white;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wedding-invitation-content > div {
+    position: relative;
+}
+
+.wedding-invitation-title {
+    text-align: center;
+    font-family: "Vijaya", Sans-serif, serif;
+    font-size: 35px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.wedding-invitation-button {
+    fill: #000000;
+    color: #000000 !important;
+    font-family: "Dosis", Sans-serif, serif;
+    font-weight: normal;
+    background-color: #ffffff;
+    border-radius: 25px 25px 25px 25px !important;
+    line-height: 1;
+    font-size: 15px;
+    padding: 12px 24px;
+    -webkit-border-radius: 3px;
+    text-align: center;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    border: 1px solid #dddddd;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.wedding-invitation input {
+    text-align: center !important;
+    font-family: "Dosis", Sans-serif, serif;
+}
+
+.wedding-banner {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/mempelai/11.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.wedding-banner > .content {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 0;
+    z-index: 2;
+}
+
+.wedding-banner-title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.wedding-banner-person {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.wedding-banner-welcoming {
+    left: 0;
+    right: 0;
+    margin: 50vh auto 0;
+    background-color: #DDB355C2;
+    width: 500px;
+    border-radius: 25px;
+}
+
+.wedding-banner-welcoming-title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.wedding-banner-welcoming-name {
+    font-family: 'Vijaya', Sans-serif, serif;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.wedding-banner-welcoming-location {
+    font-family: 'Vijaya', Sans-serif, serif;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.wedding-banner-welcoming-info {
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+.wedding-svg-box {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    bottom: 20px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.wedding-svg-banner {
+    width: calc(100% + 1px);
+    height: 50px;
+    z-index: -1;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    fill: currentColor;
+    vertical-align: middle;
+    margin-top: -2px;
+    line-height: 0;
+    direction: ltr;
+}
+
+.wedding-banner-button {
+    border: 0;
+    background-color: transparent;
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.wedding-intro {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wedding-intro-img {
+    margin-top: 20px;
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.wedding-intro-description {
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+
+.wedding-person {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wedding-person-info {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.wedding-person-name {
+    color: #DDB355;
+    font-family: "Great Vibes", Sans-serif, serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.wedding-person-instagram {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wedding-person-instagram > a {
+    font-size: 24px;
+    color: #000000;
+}
+
+.wedding-person-parent {
+    text-align: center;
+    color: #000000;
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: 0;
+}
+
+.wedding-person-photo {
+    text-align: center;
+}
+
+.wedding-person-photo img {
+    height: 300px;
+    /*filter: grayscale(100%);*/
+    filter: opacity(90%);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wedding-person-separator {
+    text-align: center;
+    color: #000000;
+    font-family: "Great Vibes", Sans-serif, serif;
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wedding-doa {
+    text-align: center;
+}
+
+.wedding-doa-img {
+    margin-top: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.wedding-doa-description {
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+
+.wedding-date {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wedding-date-title {
+    text-align: center;
+    color: #DDB355;
+    font-family: "Great Vibes", Sans-serif, serif;
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.wedding-date-timer {
+    margin-bottom: 40px;
+}
+
+.wedding-date-timer-time {
+    color: #000000;
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.wedding-date-timer-info {
+    color: #000000;
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.wedding-date-button {
+    font-family: "Dosis", Sans-serif, serif;
+    font-weight: 500;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #DDB355;
+    padding: 10px 30px;
+    font-size: 15px;
+    transition: font-size 0.15s;
+}
+
+.wedding-date-button:hover {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.wedding-date-akad-resepsi {
+    text-align: center;
+    color: #DDB355;
+    font-family: "Great Vibes", Sans-serif, serif;
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.wedding-date-icon {
+    font-family: "Dosis", Sans-serif, serif;
+    padding-top: 0;
+    color: #000000;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 0;
+}
+
+.wedding-date-info {
+    margin-bottom: 0;
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: 0;
+}
+
+.wedding-sub-banner {
+    width: 100%;
+    min-height: 600px;
+    background-image: url("../img/mempelai/7.jpg");
+    background-size: cover;
+    background-position: bottom 40% center;
+    filter: opacity(90%);
+    color: white;
+    padding-bottom: 90px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.wedding-sub-banner > .content {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 0;
+    z-index: 2;
+}
+
+.wedding-sub-banner-overlay {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00000000 49%, #000000 100%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 600px;
+    position: absolute;
+}
+
+.wedding-sub-banner-title {
+    margin-top: 400px;
+    color: #FFFFFF;
+    font-family: "Vijaya", Sans-serif, serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.wedding-sub-banner-person {
+    color: #FFFFFF;
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+.wedding-sub-banner-svg-top {
+    top: -1px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wedding-sub-banner-svg-top > svg {
+    width: calc(300% + 1px);
+    height: 50px;
+    display: block;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    fill: #fff;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+}
+
+.wedding-sub-banner-svg-top > svg:not(:root), .wedding-sub-banner-svg-bottom > svg:not(:root) {
+    overflow: hidden;
+}
+
+.wedding-sub-banner-svg-bottom {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    bottom: -1px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wedding-sub-banner-svg-bottom > svg {
+    width: calc(300% + 1px);
+    height: 50px;
+    z-index: -1;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    fill: currentColor;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.wedding-kehadiran-description {
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wedding-protokol {
+    text-align: center;
+}
+
+.wedding-protokol-separator {
+    margin-top: 20px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.wedding-protokol-description {
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+
+.wedding-protokol-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wedding-protokol-img {
+    filter: brightness(0%) contrast(200%) saturate(200%) blur(0px) hue-rotate(
+        360deg
+    );
+}
+
+.wedding-protokol-text {
+    font-size: 14px;
+    color: #000000;
+    font-family: "Dosis", Sans-serif, serif;
+    font-weight: 600;
+}
+
+.wedding-gallery {
+    margin-top: 30px;
+}
+
+.wedding-gallery-box {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.img-gallery {
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.wedding-gift {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wedding-gift-title {
+    text-align: center;
+    color: #DDB355;
+    font-family: "Great Vibes", Sans-serif, serif;
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.wedding-gift-description {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 0 1.25em;
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: 0;
+}
+
+.wedding-gift-button {
+    font-family: "Dosis", Sans-serif, serif;
+    font-weight: 500;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #DDB355;
+    padding: 10px 30px 10px 50px;
+    font-size: 15px;
+    transition: font-size 0.15s;
+    position: relative;
+    min-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.wedding-gift-button:hover {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.wedding-gift-button > .fa {
+    position: absolute;
+    left: 20px;
+    top: 30%;
+}
+
+.wedding-gift-close-modal {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.wedding-gift-modal-transfer .modal-content {
+    border-radius: 20px;
+}
+
+.wedding-gift-modal-transfer .modal-body {
+    padding-top: 40px;
+    border-radius: 30px;
+}
+
+.wedding-gift-modal-separator {
+    filter: brightness(0%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+    margin-bottom: 20px;
+}
+
+.wedding-gift-modal-list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.wedding-gift-no-rekening {
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.wedding-gift-no-rekening::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    width: 50%;
+    margin: auto;
+    border-bottom: 2px solid #252525;
+}
+
+.wedding-gift-name {
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 16px;
+}
+
+.wedding-gift-copy {
+    font-family: "Dosis", Sans-serif, serif;
+    font-weight: normal;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 14px;
+}
+
+.wedding-gift-copy-text {
+    position: absolute;
+    left: -9999px;
+}
+
+.wedding-wish {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wedding-wish-img {
+    margin-top: 60px;
+    height: 35px;
+    margin-bottom: 30px;
+}
+
+.wedding-wish-title {
+    text-align: center;
+    color: #DDB355;
+    font-family: "Great Vibes", Sans-serif, serif;
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.wedding-wish-input-comment, .wedding-wish-input-edit {
+    height: 54px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 12px;
+    box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.1);
+    font-family: inherit;
+    outline: none;
+    -webkit-transition: .18s ease-out;
+    -moz-transition: .18s ease-out;
+    -o-transition: .18s ease-out;
+    transition: .18s ease-out;
+    resize: none;
+}
+
+.wedding-wish-person {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wedding-wish-person > span {
+    border-right: 0;
+    background-color: transparent;
+    color: #c8c8c8;
+    box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.1);
+    font-family: inherit;
+    outline: none;
+    -webkit-transition: .18s ease-out;
+    -moz-transition: .18s ease-out;
+    -o-transition: .18s ease-out;
+    transition: .18s ease-out;
+    resize: none;
+}
+
+.wedding-wish-person > input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-left: 0;
+    font-size: 14px;
+    box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.1);
+    font-family: inherit;
+    outline: none;
+    -webkit-transition: .18s ease-out;
+    -moz-transition: .18s ease-out;
+    -o-transition: .18s ease-out;
+    transition: .18s ease-out;
+    resize: none;
+}
+
+.wedding-wish-submit, .wedding-wish-submit-cancel, .wedding-wish-comment-load {
+    float: right;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 3px -1px #bbb;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.wedding-wish-submit-cancel {
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.wedding-wish-comment-box {
+    position: relative;
+}
+
+.wedding-wish-comment-title {
+    color: #555555;
+    padding: 5px 15px 3px 5px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 24px;
+    border-bottom: 2px solid #cccccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.wedding-wish-comment-person {
+    font-family: "Dosis", Sans-serif, serif;
+    padding-right: 30px;
+    margin-bottom: 5px;
+}
+
+.wedding-wish-comment-name {
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-right: 0;
+}
+
+.wedding-wish-comment-time {
+    padding: 0 5px;
+    font-size: 11px;
+    color: #999999;
+}
+
+.wedding-wish-comment-edit {
+    position: absolute;
+    right: 0;
+    color: #aaaaaa;
+}
+
+.wedding-wish-comment-text {
+    color: #000000;
+    font-size: 12px;
+    padding: 0 0 8px 0;
+    word-break: break-word;
+}
+
+.wedding-wish-comment-load {
+    float: none;
+}
+
+/**
+ * FOOTER
+ */
+.wedding-footer {
+    padding: 50px 50px 90px;
+    text-align: center;
+}
+
+.wedding-footer-title {
+    box-sizing: border-box;
+    margin: 0 0 1.25em;
+    font-family: "Dosis", Sans-serif, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: 0;
+}
+
+.wedding-footer-person {
+    font-family: "Great Vibes", Sans-serif, serif;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.wedding-footer-separator {
+    width: 100px;
+    margin-top: 30px;
+}
+
+/**
+ * Loading
+ */
+
+#loading {
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: calc(50vh - 80px);
+}
+
+.lds-spinner {
+    color: transparent;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-spinner div {
+    transform-origin: 40px 40px;
+    animation: lds-spinner 1.2s linear infinite;
+}
+
+.lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 37px;
+    width: 6px;
+    height: 18px;
+    border-radius: 20%;
+    background: #fff;
+}
+
+.lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+}
+
+.lds-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+}
+
+.lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+}
+
+.lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+}
+
+.lds-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+}
+
+.lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+}
+
+.lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+}
+
+.lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+}
+
+.lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+}
+
+.lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+}
+
+.lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+}
+
+.lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+}
+
+@keyframes lds-spinner {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
