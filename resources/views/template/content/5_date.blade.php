@@ -75,7 +75,7 @@
 
                         <!-- Location Button -->
                         <p class="text-center">
-                            <a href="javascript:void(0)" class="btn wedding-date-button" target="_blank">
+                            <a href="https://maps.google.com/?q=-7.008508,109.949966" class="btn wedding-date-button" target="_blank">
                                 <i class="fa fa-map-marker"></i> Lihat Lokasi
                             </a>
                         </p>
@@ -117,7 +117,7 @@
 
                         <!-- Location Button -->
                         <p class="text-center">
-                            <a href="javascript:void(0)" class="btn wedding-date-button" target="_blank">
+                            <a href="https://maps.google.com/?q=-7.008508,109.949966" class="btn wedding-date-button" target="_blank">
                                 <i class="fa fa-map-marker"></i> Lihat Lokasi
                             </a>
                         </p>

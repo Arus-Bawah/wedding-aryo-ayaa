@@ -13,6 +13,16 @@ class InvitationSeeder extends Seeder
      */
     public function run()
     {
+        DB::table('invitation')->truncate();
+        DB::table('invitation')->insert([
+            'created_at' => date('Y-m-d H:i:s'),
+            'name' => 'Arif Niwang Djati',
+            'location' => 'Semarang',
+            'url' => 'arif-niwang-djati',
+            'sesi' => 1,
+            'is_invite' => 1
+        ]);
+
         $tmp_slug = [];
         $same_slug = [];
         $file = file_get_contents(base_path('database/invitation/invitation.json'));

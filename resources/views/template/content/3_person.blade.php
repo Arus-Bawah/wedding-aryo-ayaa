@@ -6,7 +6,7 @@
                 <div class="col-md-6 col-sm-12 wedding-person-info order-2 order-md-1">
                     <h2 class="wedding-person-name" :data-aos="(setting.width > 767 ? 'fade-right' : 'fade-up')" data-aos-duration="1000">Ari Kustian</h2>
                     <p class="wedding-person-instagram">
-                        <a href="javascript:void(0)" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/arika_hamid/" target="_blank"><i class="fa fa-instagram"></i></a>
                     </p>
                     <h2 class="wedding-person-parent" :data-aos="(setting.width > 767 ? 'fade-right' : 'fade-up')" data-aos-duration="1000">
                         Putri dari Bapak Abdul Khamid <br> dan Ibu Musrifah
@@ -38,7 +38,7 @@
                 <div class="col-md-6 wedding-person-info">
                     <h2 class="wedding-person-name" :data-aos="(setting.width > 767 ? 'fade-left' : 'fade-up')" data-aos-duration="1000">Aryo Pambudi</h2>
                     <p class="wedding-person-instagram">
-                        <a href="javascript:void(0)" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/arryopambudi/" target="_blank"><i class="fa fa-instagram"></i></a>
                     </p>
                     <h2 class="wedding-person-parent" :data-aos="(setting.width > 767 ? 'fade-left' : 'fade-up')" data-aos-duration="1000">
                         Putra dari Bapak Suparman (Alm) <br> dan Ibu khoripah (Almh)

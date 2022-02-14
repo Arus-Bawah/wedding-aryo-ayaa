@@ -5,7 +5,7 @@
     <title>Aryo & Ayaa</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{ asset('assets/img/icon.jpeg') }}">
+    <link rel="icon" href="{{ asset('assets/img/mempelai/icon.jpg') }}">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -83,8 +83,8 @@
     var baseUrl = '{{ url('/') }}';
     var token = '{{ $token }}';
     var listMusic = [
-        '{{ asset('assets/music/andmesh-nyaman-fixed.mp3') }}',
-        '{{ asset('assets/music/tulus-1000_tahun_lamanya-official.mp3') }}',
+        '{{ asset('assets/music/you-are-the-reason.mp3') }}',
+        '{{ asset('assets/music/main-music-1.mp3') }}',
     ];
     var listDate = [
         'February 22, 2022 13:00:00', // sesi 0

@@ -9,14 +9,17 @@ Pukul 13 - selesai
 Lokasi rumah mempelai wanita
 Dk sindutan rt 02/03 ds amongrogo, kec limpung , kab batang
 Dompet digital rek mandiri 1390019372022 a/n aryo pambudi
+======================
+Ig sy    :arryopambudi
+Istri sy : arika_hamid
 
 
 C:\laragon\bin\php\php-5.6.40-Win32-VC11-x64\php.exe artisan serve
 
 
 Todo :
-[ ] Instagram Pria & Wanita
-[ ] Share Location
+[x] Instagram Pria & Wanita
+[x] Share Location
 
 Change Request
 - Kata-Kata Doa atau tulisan lainnya

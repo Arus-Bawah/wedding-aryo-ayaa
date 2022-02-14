@@ -103,10 +103,6 @@ new Vue({
             let countDownDate = new Date(this.countdown.date).getTime();
             let now = new Date().getTime();
             let distance = countDownDate - now;
-            console.log(`info ${this.countdown.date}`)
-            console.log(`countdown date ${countDownDate}`);
-            console.log(`now ${now}`);
-            console.log(`distance ${distance}`);
 
             // If the count down is over, write some text
             if (distance < 0) {
